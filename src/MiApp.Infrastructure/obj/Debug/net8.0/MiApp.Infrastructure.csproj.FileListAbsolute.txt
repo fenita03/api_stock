@@ -1,0 +1,17 @@
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\bin\Debug\net8.0\MiApp.Infrastructure.deps.json
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\bin\Debug\net8.0\MiApp.Infrastructure.dll
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\bin\Debug\net8.0\MiApp.Infrastructure.pdb
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.Infrastructure.AssemblyInfo.cs
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.Infrastructure.dll
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\refint\MiApp.Infrastructure.dll
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.Infrastructure.pdb
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\ref\MiApp.Infrastructure.dll
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\bin\Debug\net8.0\MiApp.Application.dll
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\bin\Debug\net8.0\MiApp.Domain.dll
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\bin\Debug\net8.0\MiApp.Application.pdb
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\bin\Debug\net8.0\MiApp.Domain.pdb
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Fenita\api_stock\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.In.64A5F882.Up2Date

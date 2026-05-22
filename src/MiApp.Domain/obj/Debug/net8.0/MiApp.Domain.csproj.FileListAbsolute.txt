@@ -1,0 +1,11 @@
+C:\Users\Fenita\api_stock\src\MiApp.Domain\bin\Debug\net8.0\MiApp.Domain.deps.json
+C:\Users\Fenita\api_stock\src\MiApp.Domain\bin\Debug\net8.0\MiApp.Domain.dll
+C:\Users\Fenita\api_stock\src\MiApp.Domain\bin\Debug\net8.0\MiApp.Domain.pdb
+C:\Users\Fenita\api_stock\src\MiApp.Domain\obj\Debug\net8.0\MiApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fenita\api_stock\src\MiApp.Domain\obj\Debug\net8.0\MiApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Fenita\api_stock\src\MiApp.Domain\obj\Debug\net8.0\MiApp.Domain.AssemblyInfo.cs
+C:\Users\Fenita\api_stock\src\MiApp.Domain\obj\Debug\net8.0\MiApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Fenita\api_stock\src\MiApp.Domain\obj\Debug\net8.0\MiApp.Domain.dll
+C:\Users\Fenita\api_stock\src\MiApp.Domain\obj\Debug\net8.0\refint\MiApp.Domain.dll
+C:\Users\Fenita\api_stock\src\MiApp.Domain\obj\Debug\net8.0\MiApp.Domain.pdb
+C:\Users\Fenita\api_stock\src\MiApp.Domain\obj\Debug\net8.0\ref\MiApp.Domain.dll
