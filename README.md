@@ -1,62 +1,31 @@
-# MiApp - API de stock
+# MiApp - API Stock 
 
-API Web en .NET 8 para administrar stock de productos tecnologicos. El ejemplo usa productos, categorias y usuarios con autenticacion JWT.
+Proyecto Backend realizado en .NET 8 utilizando Clean Architecture simple para una API de stock.
 
-## Capas de Clean Architecture
+## Funcionalidades
 
-- `MiApp.Domain`: entidades, reglas de negocio y `DomainException`. No depende de EF Core, ASP.NET ni MediatR.
-- `MiApp.Application`: casos de uso con CQRS y MediatR. Define interfaces de repositorios y DTOs/responses.
-- `MiApp.Infrastructure`: EF Core, SQLite, repositorios concretos, `ApplicationDbContext`, seed y JWT.
-- `MiApp.WebApi`: controllers, Swagger, autenticacion/autorizacion y manejo global de errores.
+- Login con JWT
+- CRUD de productos
+- CRUD de categorías
+- Swagger
+- Entity Framework Core
+- SQLite
+- Repository Pattern
+- Controllers
 
-## Flujo correcto de una request
+## Arquitectura
 
-HTTP Request -> Controller -> `MediatR.Send()` -> Command o Query -> Handler -> Repository Interface -> Repository Implementation -> DbContext -> Base de datos.
+El proyecto está dividido en capas:
 
-## Command y Query
+- MiApp.Domain → Entidades e interfaces
+- MiApp.Application → Lógica de negocio
+- MiApp.Infrastructure → Base de datos y repositorios
+- MiApp.WebApi → Controllers y Swagger
 
-Un Command representa una accion que modifica datos. Ejemplo: `CreateProductCommand` crea un producto.
+## Tecnologías usadas
 
-Un Query representa una consulta que solo lee datos. Ejemplo: `GetProductsQuery` lista los productos.
-
-## MediatR
-
-MediatR recibe el Command o Query desde el controller y lo envia a su Handler. Asi el controller no conoce repositorios ni logica de negocio.
-
-## Repository Pattern
-
-Los Handlers usan interfaces como `IProductRepository`. Infrastructure implementa esas interfaces con EF Core y `ApplicationDbContext`.
-
-## Seguridad y Swagger
-
-Login:
-
-- Usuario: `admin@test.com`
-- Contrasena: `123456`
-
-En Swagger:
-
-1. Ejecutar `POST /api/Auth/login`.
-2. Copiar el valor `token`.
-3. Presionar `Authorize`.
-4. Pegar el token JWT.
-
-## Endpoints para probar
-
-- `POST /api/Auth/login`
-- `GET /api/Products`
-- `GET /api/Products/{id}`
-- `POST /api/Products`
-- `PUT /api/Products/{id}`
-- `DELETE /api/Products/{id}`
-- `GET /api/Categories`
-
-## Comandos
-
-```bash
-dotnet restore
-dotnet build
-dotnet ef migrations add InitialCreate --project src/MiApp.Infrastructure --startup-project src/MiApp.WebApi
-dotnet ef database update --project src/MiApp.Infrastructure --startup-project src/MiApp.WebApi
-dotnet run --project src/MiApp.WebApi
-```
+- .NET 8
+- Entity Framework Core
+- SQLite
+- JWT Authentication
+- Swagger
